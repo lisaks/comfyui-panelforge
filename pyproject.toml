@@ -1,0 +1,15 @@
+[project]
+name = "panelforge"
+description = "Pixstri is a custom plugin for ComfyUI designed to generate comic pages. It provides a hierarchical node system that allows you to create comic layouts with rows and frames, making it easy to design and preview comic pages within your ComfyUI workflows."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["torch>=1.7.0", "numpy>=1.19.0"]
+
+[project.urls]
+Repository = "https://github.com/lisaks/comfyui-panelforge"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "comfyui-panelforge"
+Icon = ""
